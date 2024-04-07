@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding to create space around the container */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #5f259f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-signup a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .login-signup a + a {
+    margin-left: 10px;
+  }
+  
+  
+  .stat {
+    flex-basis: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: #5f259f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form-container {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #5f259f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .log-height{
+    height: 50px;
+    font-size: 30px;
+  }
+  .log-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+  }
